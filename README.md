@@ -9,7 +9,7 @@ See the deployed site: https://conscorn.github.io/webdev-coding-quiz/
 Clone the repository: https://github.com/ConScorn/webdev-coding-quiz
 Click on any of the colored boxes to type in that space, then click the save button for that box to keep that note there. Thanks!
 
-![screenshot](assets/img/screenshot.PNG)
+![screenshot](img/screenshot.PNG)
 
 ## Technologies Used:
 - Bootstrap
