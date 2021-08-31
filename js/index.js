@@ -6,7 +6,7 @@ function currentDate() {
 function init() {
     setHours();
     currentDate();
-    
+    displaySavedTasks();
 }
 
 function setHours() {
@@ -62,7 +62,15 @@ document.getElementById('sixteen-btn').addEventListener('click', function() {
 });
 
 function displaySavedTasks() {
+    $('#8-text').val(localStorage.getItem("8:00"));
     $('#9-text').val(localStorage.getItem("9:00"));
+    $('#10-text').val(localStorage.getItem("10:00"));
+    $('#11-text').val(localStorage.getItem("11:00"));
+    $('#12-text').val(localStorage.getItem("12:00"));
+    $('#13-text').val(localStorage.getItem("1:00"));
+    $('#14-text').val(localStorage.getItem("2:00"));
+    $('#15-text').val(localStorage.getItem("3:00"));
+    $('#16-text').val(localStorage.getItem("4:00"));
 }
 
 init();
