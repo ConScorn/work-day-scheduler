@@ -13,14 +13,15 @@ function setHours() {
     let hour = new Date().getHours();
 
     for (i = 8; i <= 16; i++) {
+        let hourBlock = $(`#hour${i}`);
+        if (i > hour) {
+            hourBlock.addClass("future");
 
-        if ($(`#hour${i}`) == hour) {
-            $(`#hour${i}`).addClass("present");
-            console.log($(`#hour${i}`))
-        } else if ($(`#hour${i}`) < hour) {
-            $(`#hour${i}`).addClass("future");
+        } else if (i < hour) {
+            hourBlock.addClass("past");
+
         } else {
-            $(`#hour${i}`).addClass("past");
+            hourBlock.addClass("present");
         }
     }
 }
