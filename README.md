@@ -5,8 +5,8 @@ This app acts as a notepad, with areas to write and save tasks, organized by the
 past hours are colored grey. Users can choose to save their notes to localStorage by using the blue save button for each box, and can overwrite them at any time.
 
 ## Usage
-See the deployed site: https://conscorn.github.io/webdev-coding-quiz/
-Clone the repository: https://github.com/ConScorn/webdev-coding-quiz
+See the deployed site: https://conscorn.github.io/work-day-scheduler/
+Clone the repository: https://github.com/ConScorn/work-day-scheduler
 Click on any of the colored boxes to type in that space, then click the save button for that box to keep that note there. Thanks!
 
 ![screenshot](img/screenshot.PNG)
